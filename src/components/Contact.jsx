@@ -29,9 +29,9 @@ const Contact = () => {
     setLoading(true);
     emailjs.send("service_qyv6867", "template_j1d9c8m", {
       from_name: form.name,
-      to_name: 'Kevin Taylor',
+      to_name: 'Jay Gangkun',
       from_email: form.email,
-      to_email: "kevintaylor0206@outlook.com",
+      to_email: "youngboys.dev@gmail.com",
       message: form.message
     }, "f3AUAdbuJeSpFFGI0").then(() => {
       setLoading(false);
@@ -69,22 +69,22 @@ const Contact = () => {
 
           <label className="flex items-center" align="center">
             <img src={telegram} className={'w-[30px] h-[30px] mr-2'} />
-            <span className="text-white font-medium">Telegram: &nbsp;&nbsp;<a href="https://t.me/kt9526" target="_blank">@kt9526<span></span></a></span>
+            <span className="text-white font-medium">Telegram: &nbsp;&nbsp;<a href="https://t.me/Adev0123" target="_blank">@Adev0123<span></span></a></span>
           </label>
           <label className="flex items-center" align="center">
             <img src={skype} className={'w-[35px] h-[35px] mr-2'} />
             <span className="text-white font-medium cursor-pointer"
               onClick={() => {
                 navigator.clipboard.writeText('live:.cid.4b9d812105bd5f47');
-              }}>Skype: &nbsp;&nbsp; live:.cid.4b9d812105bd5f47</span>
+              }}>Skype: &nbsp;&nbsp; live:youngboy.dev</span>
             <span></span>
           </label>
           <label className="flex items-center" align="center">
             <img src={email} className={'w-[35px] h-[35px] mr-2'} />
             <span className="text-white font-medium"
               onClick={() => {
-                navigator.clipboard.writeText('kevintaylor0206@outlook.com');
-              }}>Email: &nbsp;&nbsp;<a href="mailto:kevintaylor0206@outlook.com" target="_blank">kevintaylor0206@outlook.com</a></span>
+                navigator.clipboard.writeText('youngboys.dev@gmail.com');
+              }}>Email: &nbsp;&nbsp;<a href="mailto:youngboys.dev@gmail.com" target="_blank">youngboys.dev@gmail.com</a></span>
           </label>
         </form>
       </motion.div>

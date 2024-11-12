@@ -46,7 +46,7 @@ const Navbar = () => {
         >
          <a href="https://github.com/butterfly026"><img src={mylogo} alt="logo" className="w-16 h-16 object-contain" /></a> 
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Kevin &nbsp; <span className="sm:block hidden "> Taylor</span>
+            Jay &nbsp; <span className="sm:block hidden "> GangKun</span>
           </p>
         </Link>
 
