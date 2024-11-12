@@ -1,7 +1,7 @@
 # Project 3D - Portfolio
 
 
-This Project is hosted in Netlify : [My Portfolio](https://butterfly026.github.io/MyPortfolio/)
+This Project is hosted in Github Pages : [My Portfolio](https://dev-demons.github.io/myportfolio/)
 
 ## :star: Give A Star
 

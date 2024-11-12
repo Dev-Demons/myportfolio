@@ -51,6 +51,12 @@ import {
   servicedesk,
   mealprepify,
   littleworkshop_screen,
+  vue,
+  shopify,
+  prestashop,
+  magento,
+  nest,
+  next
 } from "../assets";
 
 export const navLinks = [
@@ -65,6 +71,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "tech",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -107,52 +117,36 @@ const services = [
 
 const technologies = [
   {
-    name: "Java",
-    icon: java,
+    name: "Shopify",
+    icon: shopify,
   },
   {
-    name: "Spring",
-    icon: spring,
+    name: "wordpress",
+    icon: wordpress,
   },
   {
-    name: "Spring Boot",
-    icon: springboot,
-  },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Node.js",
-    icon: nodejs,
+    name: "Prestashop",
+    icon: prestashop,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "Vue",
+    icon: vue,
+  },
+  {
     name: "Angular",
     icon: angular,
   },
   {
-    name: ".Net",
-    icon: dotnet,
+    name: "Node.js",
+    icon: nodejs,
   },
   {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "Swift",
-    icon: swift,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "HTML 5",
@@ -171,6 +165,10 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "PHP",
+    icon: php,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -179,28 +177,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "Babylon JS",
-    icon: babylonjs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "wordpress",
-    icon: wordpress,
-  },
-  {
     name: "bootstrap",
     icon: bootstrap,
   },
   {
-    name: "Microservice",
-    icon: microservice,
+    name: "git",
+    icon: git,
   },
   {
     name: "Azure",
@@ -218,65 +200,50 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Agnos Inc",
+    title: "Full Stack Developer (E-Commerce Focused)",
+    company_name: "Hampar Productions",
     icon: agnos,
     iconBg: "#383E56",
-    date: "06/2021 - 12/2023",
+    date: "February 2020 - Present",
     points: [
-      "Developed and maintained JEE web applications using Spring Boot framework.",
-      "Worked in agile teams consisting of a back-end developer, a front-end developer, a QA, a BA, and a product owner",
-      "Scaled back-end services for routing engines to run throughputs in the range of 800,000, around 10K requests per second",
-      "Developed simple REST API Spring Boot 2 back-end applications using a combination of blocking and non-blocking(Reactive) endpoints",
-      "Developed the core back-end infrastructure to manage 80+ microservices, including CI/CD, authentication, service discovery, and edge layer API gateway",
-      "Implemented Java Azure AD security libraries to help with OpenID Connect (JWT) protocol. This includes on behalf of access for BE to BE security integration",
-      "Migrated existing projects from Maven to Gradle and deployed to Azure using the Azure DevOps (VSTS) pipelines",
+      "Collaborated with over 20+ clients on diverse e-commerce projects, delivering solutions tailored to meet specific business needs.",
+      "Specialized in Shopify theme customization, Shopify custom app development, and Shopify store migration, enhancing user experiences and boosting conversion rates.",
+      "Developed and maintained full stack applications using React, Vue.js, and backend technologies like Node.js and PHP, ensuring robust and scalable architecture.",
+      "Integrated third-party services (e.g., payment gateways, CRM systems, marketing tools) to enhance e-commerce functionality and streamline business operations.",
+      "Optimized performance and implemented SEO best practices, resulting in improved site speed and search engine rankings.",
+      "Provided ongoing technical support and maintenance, ensuring seamless user experience and minimal downtime.",
     ],
   },
   {
-    title: "Senior Web Developer (Remote)",
-    company_name: "Little Workshop",
+    title: "Software Developer (E-Commerce Focused)",
+    company_name: "MacroPolo",
     icon: little_workshop,
     iconBg: "#E6DEDD",
-    date: "11/2019 - 04/2021",
+    date: "April 2017 - October 2019",
     points: [
-      "Led the development of a cutting-edge e-commerce platform using React, enhancing user experience and increasing conversion rates by 20%",
-      "Implemented a 3D product visualization feature using Three.js, providing users with an interactive and immersive shopping experience",
-      "Integrated Node.js for server-side logic, optimizing application performance and reducing load times by 30%.",
+      "Played a key role in helping clients define project goals, develop strategic plans, and choose optimal e-commerce solutions to meet business objectives.",
+      "Worked extensively on leading e-commerce platforms, including Shopify, WooCommerce, and Magento, handling theme customization, frontend development, and plugin/app creation.",
+      "Built custom Shopify apps and WooCommerce plugins, integrating features like dynamic pricing, product bundling, and advanced filtering, enhancing site functionality and user engagement.",
+      "Collaborated effectively within remote teams and agencies, demonstrating strong communication skills and a proactive approach to problem-solving.",
+      "Demonstrated high-level technical competency across the stack, including JavaScript frameworks, PHP, and API development, delivering efficient and scalable solutions.",
+      "Brought enthusiasm and a client-focused mindset, consistently achieving favorable project outcomes and high client satisfaction.",
     ],
   },
   {
-    title: "Software Developer (Remote)",
-    company_name: "Corvus Insurance",
+    title: "Software Developer",
+    company_name: "ZHENGNAN Computer",
     icon: corvusinsurance_logo,
     iconBg: "#E6DEDD",
-    date: "01/2018 - 11/2019",
+    date: "November 2015 - February 2017",
     points: [
-      "As a software developer, designed and delivered numerous features for a highly distributed, multi-tenant web application that primarily targeted terabytes of data from SAS document management systems.",
-      "Built an Ajax front­end, back­end, and did full-stack development for the core document management web application using a JBoss Application Server, Seam, Spring, and JPA architecture.",
-      "Developed a SOAP/REST document management web service.",
-      "Created a back-end domain object-based security framework for a multi­tenant web application using Spring Security.",
-    ],
-  },
-  {
-    title: "Software Developer (Remote)",
-    company_name: "INTL DEVS LLC",
-    icon: intldevs,
-    iconBg: "#E6DEDD",
-    date: "04/2016 – 12/2017",
-    points: [
-      "Enhanced 15+ responsive websites for clients in a variety of industries",
-      "Maintained and optimized 10+ robust web and mobile applications for a diverse portfolio of national and foreign clients using React and React Native",
-      "Collaborated with a team of 12 developers to prototype and design solutions based on requirements in an agile fashion",
-      "Fixed bugs, enhance the website. Customer satisfaction has increased by 35%",
+      "Led a solo project to enhance the company's core engine by implementing multithreading capabilities, significantly improving performance and processing speed.",
+      "Took on the role of a Frontend React Developer for a web-based tool management system used in local construction projects, building interactive and responsive user interfaces.",
+      "Collaborated closely with stakeholders to gather requirements and deliver a solution that streamlined tool tracking and inventory management, reducing manual effort and increasing efficiency.",
+      "Gained valuable experience in frontend technologies and contributed to the project’s success through innovative problem-solving and a strong attention to detail.",
     ],
   },
 ];

@@ -40,6 +40,12 @@ import spring from "./tech/spring.png";
 import springboot from "./tech/springboot.png";
 import swift from "./tech/swift.png";
 import blockchain from "./tech/blockchain.png";
+import vue from "./tech/vue.png";
+import prestashop from "./tech/prestashop.svg";
+import shopify from "./tech/shopify.svg";
+import next from "./tech/next.svg";
+import nest from "./tech/nest.svg";
+import magento from "./tech/magento.svg";
 
 import behance from "./socialmedia/behance.svg";
 import dribble from "./socialmedia/dribble.svg";
@@ -130,5 +136,11 @@ export {
   telegram,
   skype,
   whatsapp,
-  email
+  email,
+  vue,
+  shopify,
+  prestashop,
+  nest,
+  next,
+  magento
 };
