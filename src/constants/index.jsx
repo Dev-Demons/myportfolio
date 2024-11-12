@@ -63,12 +63,20 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
 ];
 
 const services = [
+  {
+    title: "E-Commerce Developer",
+    icon: mobile,
+  },
   {
     title: "Front-End Web Developer",
     icon: web,
@@ -77,15 +85,25 @@ const services = [
     title: "Back-end Developer",
     icon: backend,
   },
-  {
-    title: "Mobile Developer",
-    icon: mobile,
-  },
-  {
-    title: "Blockchain Developer",
-    icon: blockchain,
-  },
 ];
+// const services = [
+//   {
+//     title: "Front-End Web Developer",
+//     icon: web,
+//   },
+//   {
+//     title: "Back-end Developer",
+//     icon: backend,
+//   },
+//   {
+//     title: "Mobile Developer",
+//     icon: mobile,
+//   },
+//   {
+//     title: "Blockchain Developer",
+//     icon: blockchain,
+//   },
+// ];
 
 const technologies = [
   {
