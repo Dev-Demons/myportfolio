@@ -72,6 +72,12 @@ import flixbus from "./projectimg/flixbus.png";
 import servicedesk from "./projectimg/servicedesk.png";
 import mealprepify from "./projectimg/mealprepify.png";
 import littleworkshop_screen from "./projectimg/littleworkshop.png";
+import rockem from "./projectimg/rockem.png";
+import lgnd from "./projectimg/lgnd.png";
+import findajob from "./projectimg/findajob.png";
+import tnnursery from "./projectimg/tnnursery.png";
+import firewiresurfboards from "./projectimg/firewiresurfboards.png";
+import eggdonor from "./projectimg/eggdonor.png";
 
 export {
   mylogo,
@@ -109,6 +115,12 @@ export {
   servicedesk,
   mealprepify,
   littleworkshop_screen,
+  rockem,
+  lgnd,
+  findajob,
+  tnnursery,
+  firewiresurfboards,
+  eggdonor,
   blockchain,
   agnos,
   little_workshop,

@@ -56,7 +56,13 @@ import {
   prestashop,
   magento,
   nest,
-  next
+  next,
+  rockem,
+  lgnd,
+  findajob,
+  tnnursery,
+  firewiresurfboards,
+  eggdonor
 } from "../assets";
 
 export const navLinks = [
@@ -88,7 +94,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Front-End Web Developer",
+    title: "Front-End Developer",
     icon: web,
   },
   {
@@ -291,64 +297,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "BigBet88",
-    description: "Having already completed several projects with Strong Gaming, I was in need of a redesign for a few websites." +      
-      "My development team led by experienced managers know how to build an effective workflow so that all iGaming software development stages can be conducted without interruptions and delays." +      
-      "A modern looking website that represented what the website really is about.",
+    name: "Rock EM Socks",
+    description: "I contributed to the development of Rock Em Sock, the world’s largest sock store, over several years, focusing on creating a seamless customer experience and robust internal tools. I built a feature-rich dashboard using React, enabling efficient management and integration with multiple Shopify stores. My role involved optimizing performance, implementing scalable solutions, and ensuring a cohesive frontend aligned with the brand's dynamic growth.",
     tags: [
       {
-        name: "Gaming",
+        name: "E-Commerce",
         color: "blue-text-gradient",
       },
       {
-        name: "Java",
+        name: "React",
         color: "pink-text-gradient",
       },
       {
-        name: "Spring Boot",
+        name: "Shopify",
         color: "orange-text-gradient",
       },
       {
-        name: "Microservice",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Elasticsearch",
-        color: "white-text-gradient",
+        name: "Firebase",
+        color: "green-text-gradient",
       },
     ],
-    image: bigbet88,
+    image: rockem,
     source_code_link: "",
-    netlify_link: "https://bigbet88.com/",
+    netlify_link: "https://rockemsocks.com/",
   },
   {
-    name: "Little Workshop",
+    name: "LGND",
     description:
-      "Little Workshop is a digital studio based in Paris, France." + 
-      "This site mix art and code to build unique experiences. This site is passionate and aspire to create experiences that people truly enjoy. I worked as senior web developr and build this front-end with Three.js and React.js ",
+      "I customized the Shopify theme for LGND, tailoring it to reflect the brand’s unique identity and premium appeal. I developed and implemented custom features through bespoke Shopify apps, enhancing user experience and supporting promotional initiatives. My work focused on delivering a seamless shopping experience while aligning with the store’s strategic goals and aesthetic vision.",
     tags: [
       {
-        name: "React.js",
+        name: "Shopify",
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "Liquid",
         color: "green-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "JavaScript/CSS",
         color: "red-text-gradient",
       },
+      {
+        name: "Webhook",
+        color: "pink-text-gradient",
+      },
     ],
-    image: littleworkshop_screen,
+    image: lgnd,
     source_code_link: "",
-    netlify_link: "https://www.littleworkshop.fr/",
+    netlify_link: "https://lgndsupplyco.com",
   },
   {
-    name: "AI Earn",
+    name: "FindAJobUSA",
     description:
-      "AI Earn is an intelligent one-click custodial financial trading system. It uses AI algorithms and big data analysis to provide users with optimal investment strategies and suggestions, and help users achieve stable and efficient investment returns." + 
-      "Many cryptocurrency holders invest in decentralized finance (DeFi) protocols in the hope of generating additional income, but the process is complex, costly and risky, and often yields varying annual percentage returns (APY) As expected. ",
+      "I served as a Full Stack Developer for Find A Job USA, creating a responsive and user-friendly job search platform. The project involved building the frontend using React for dynamic user interactions and developing the backend with Node.js for seamless data handling and API integration. The platform empowers employers to post jobs and connect with top talent efficiently, providing a robust solution for job seekers and recruiters alike.",
     tags: [
       {
         name: "React",
@@ -366,85 +368,80 @@ const projects = [
         name: "Tailwind",
         color: "green-text-gradient",
       },
+    ],
+    image: findajob,
+    source_code_link: "",
+    netlify_link: "https://findajobusa.net/",
+  },
+  {
+    name: "TN Nursery",
+    description:
+      "I contributed to the TN Nursery Shopify store as a Frontend Developer, transforming provided designs into a responsive and engaging user interface. The project emphasized delivering a seamless user experience for customers purchasing native plants through the platform. I ensured the frontend was optimized for performance and aligned with the brand's heritage and mission.",
+    tags: [
       {
-        name: "Chakra",
-        color: "red-text-gradient",
+        name: "Shopify",
+        color: "blue-text-gradient",
       },
       {
-        name: "AI",
+        name: "JavaScript/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Liquid",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: tnnursery,
+    source_code_link: "",
+    netlify_link: "https://www.tnnursery.net/",
+  },
+  {
+    name: "Firewire Surfboards",
+    description:
+      "I contributed to the Firewire Surfboards Shopify ecosystem by customizing the frontend of the main store, implementing custom features, optimizing SEO, and developing four sub-stores tailored to different audiences and regions. My work focused on creating a cohesive, visually engaging user experience across all stores while aligning with the brand's mission of sustainability and innovation.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SEO",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: firewiresurfboards,
+    source_code_link: "",
+    netlify_link: "https://www.firewiresurfboards.com/",
+  },
+  {
+    name: "Egg Donation",
+    description:
+      "I developed the Egg Donation, Inc. website using CodeIgniter, creating a robust and scalable platform to support one of the most successful egg donor programs globally. My role involved building a responsive and user-friendly interface, integrating advanced program functionalities, and ensuring seamless navigation for users exploring Fresh Cycle Donations, Shared and Split Cycles, and Frozen Egg Donations.",
+    tags: [
+      {
+        name: "CodeIgniter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
         color: "pink-text-gradient",
       },
       {
-        name: "Laravel",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: aiearn,
-    source_code_link: "",
-    netlify_link: "https://aiearn.vn/",
-  },
-  {
-    name: "Service Desk",
-    description:
-      "This is the Desktop Application for the employers for Select Software. " +    
-      "Select Software Telecommunications Services provides Cloud based Billing and CRM solutions as a service (SaaS) to telecommunication companies, carriers, MVNO’s and the like. The Selcomm™ Telco SaaS has been deployed to hundreds of Telecom providers covering a wide spectrum of business models and services.",
-    tags: [
-      {
-        name: "C#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DevExpress",
-        color: "green-text-gradient",
-      },
-    ],
-    image: servicedesk,
-    source_code_link: "",
-    netlify_link: "",
-  },
-  {
-    name: "Findbo",
-    description:
-      "In this project, I have worked as a Full-stack engineer. Here, I have designed Front-end by using Figma and implemented optimization of site. So, I improved speed of site much by optimizing database structure. Through this site, I got new knowledge optimization of site.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
+        name: "HTML/CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Materialui",
+        name: "Javascript/jQuery",
         color: "orange-text-gradient",
       },
-      {
-        name: "rapidapi",
-        color: "blue-text-gradient",
-      },
     ],
-    image: findbo,
+    image: eggdonor,
     source_code_link: "",
-    netlify_link: "https://findbo.com",
-  },
-  {
-    name: "Flixbus",
-    description:
-      "The vision of this site is to make it possible for everyone who wants to discover the world to enjoy smart, sustainable mobility. Ease of booking and an ever-growing offering mean that we provide millions of travelers with a comfortable, affordable, eco-friendly travel experience. I have developed the back-end system using Spring Boot and Hibernate.",
-    tags: [
-      {
-        name: "Spring Boot",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Hibernate",
-        color: "green-text-gradient",
-      },
-    ],
-    image: flixbus,
-    source_code_link: "",
-    netlify_link: "https://flixbus.com",
+    netlify_link: "https://eggdonor.com",
   },
   {
     name: "ChargeTrip",
