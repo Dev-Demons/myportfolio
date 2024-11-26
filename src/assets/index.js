@@ -1,4 +1,5 @@
 import mylogo from "./mylogo.png";
+import ybsoft from "./ybsoft.png";
 import backend from "./backend.webp";
 import creator from "./creator.webp";
 import mobile from "./mobile.webp";
@@ -81,6 +82,7 @@ import eggdonor from "./projectimg/eggdonor.png";
 
 export {
   mylogo,
+  ybsoft,
   backend,
   creator,
   mobile,

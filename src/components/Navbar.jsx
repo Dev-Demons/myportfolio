@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { mylogo, menu, close } from "../assets";
+import { mylogo, menu, close, ybsoft } from "../assets";
 import ResumeButton from "./ResumeButton";
 
 
@@ -37,15 +37,15 @@ const Navbar = () => {
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
-          to='/'
+          to='https://github.com/dev-demons'
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-         <a href="https://github.com/butterfly026"><img src={mylogo} alt="logo" className="w-16 h-16 object-contain" /></a> 
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+         <a href="https://github.com/dev-demons"><img src={ybsoft} alt="logo" className="w-16 h-16 object-contain" /></a> 
+          <p className="text-white text-[24px] font-bold cursor-pointer flex">
             Jay &nbsp; <span className="sm:block hidden "> GangKun</span>
           </p>
         </Link>
