@@ -1,7 +1,6 @@
 import { BrowserRouter } from 'react-router-dom'
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components"
-
-
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -20,6 +19,10 @@ function App() {
         <Contact/>
         <StarsCanvas/>
       </div>
+      <Toaster
+        position={'top-right'}
+        toastOptions={{ className: 'react-hot-toast' }}
+      />
     </div>
    </BrowserRouter>
   )

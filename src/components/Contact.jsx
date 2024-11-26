@@ -6,6 +6,7 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../HigherOrderComponents';
 import { slideIn } from '../utils/motion';
 import { email, skype, whatsapp, telegram } from "../assets";
+import toast from 'react-hot-toast'
 
 
 const Contact = () => {
@@ -27,22 +28,22 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send("service_qyv6867", "template_j1d9c8m", {
+    emailjs.send("service_izr201l", "template_9rnbq7r", {
       from_name: form.name,
       to_name: 'Jay Gangkun',
       from_email: form.email,
       to_email: "youngboys.dev@gmail.com",
       message: form.message
-    }, "f3AUAdbuJeSpFFGI0").then(() => {
+    }, "Zx_8JceEptHvtDQqS").then(() => {
       setLoading(false);
-      alert("A humble thanks for reaching me out. I will respond to you as soon as possible.")
+      toast.success("A humble thanks for reaching me out. I will respond to you as soon as possible.");
       setForm({
         name: '',
         email: '',
         message: '',
       }, (error) => {
         setLoading(false);
-        alert('Sorry!! Something went wrong!!')
+        toast.error("Sorry!! Something went wrong!!");
       })
     })
   }
@@ -76,7 +77,7 @@ const Contact = () => {
             <span className="text-white font-medium cursor-pointer"
               onClick={() => {
                 navigator.clipboard.writeText('live:.cid.4b9d812105bd5f47');
-              }}>Skype: &nbsp;&nbsp; live:youngboy.dev</span>
+              }}>Skype: &nbsp;&nbsp; live:.cid.8ccbbc06b93eb059</span>
             <span></span>
           </label>
           <label className="flex items-center" align="center">

@@ -18,6 +18,12 @@
   padding-bottom: 100px;
   display: block;
 }
+.react-hot-toast {
+  font-size: 1rem;
+  letter-spacing: 0.14px;
+  box-shadow: 0px 4px 10px -4px rgb(58 53 65 / 60%);
+  border-radius: 4px;
+}
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
