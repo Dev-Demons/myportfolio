@@ -70,7 +70,7 @@ const Contact = () => {
 
           <label className="flex items-center" align="center">
             <img src={telegram} className={'w-[30px] h-[30px] mr-2'} />
-            <span className="text-white font-medium">Telegram: &nbsp;&nbsp;<a href="https://t.me/Adev0123" target="_blank">@Adev0123<span></span></a></span>
+            <span className="text-white font-medium">Telegram: &nbsp;&nbsp;<a href="https://t.me/youngboy_dev" target="_blank">@youngboy_dev<span></span></a></span>
           </label>
           <label className="flex items-center" align="center">
             <img src={skype} className={'w-[35px] h-[35px] mr-2'} />
