@@ -77,7 +77,15 @@ const Contact = () => {
             <span className="text-white font-medium cursor-pointer"
               onClick={() => {
                 navigator.clipboard.writeText('live:.cid.4b9d812105bd5f47');
-              }}>Skype: &nbsp;&nbsp; live:.cid.8ccbbc06b93eb059</span>
+              }}>Teams: &nbsp;&nbsp; https://teams.live.com/l/invite/FDA9MPBSwQjOW5qRQQ</span>
+            <span></span>
+          </label>
+          <label className="flex items-center" align="center">
+            <img src={whatsapp} className={'w-[35px] h-[35px] mr-2'} />
+            <span className="text-white font-medium cursor-pointer"
+              onClick={() => {
+                navigator.clipboard.writeText('+1 (512) 416-0626');
+              }}>Whatsapp: &nbsp;&nbsp; +1 (512) 416-0626</span>
             <span></span>
           </label>
           <label className="flex items-center" align="center">
